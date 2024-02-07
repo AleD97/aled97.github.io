@@ -1,0 +1,146 @@
+@media screen and (max-width: 767px) {
+        body {
+      font-size: 14px;
+    }
+  }
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #666;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 210px;
+    overflow-x: auto;
+}
+
+.herramientas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    max-width: 100%;
+    height: auto;
+}   
+
+.testimonios .lista{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.testimonios .lista2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.testimonios .lista2 .cliente {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.contactos {
+    text-align: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.redes .red {
+    max-width: 10%;
+    height: auto;
+    margin: 10px;
+}
+
+.redes .link {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+  
