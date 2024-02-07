@@ -4,15 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Contactos</title>
 </head>
 <body>
     
     <header>
-        <img src="/Img/Logo/Logo.png" alt="Logo de la empresa">
-        
-        <h1>Di Giuseppe Repuestos</h1>
-        
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="Index.html">
+                <img src="Img/Logo/Logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                Di Giuseppe Repuestos
+              </a>
+            </div>
+          </nav>
+    
         <nav>
             <ul>
                 <li><a href="Index.html">Inicio</a></li>
@@ -28,21 +37,23 @@
     <img src="/Img/Inicio/Frente del Local.png" alt="Frente del local de repuestos" class="banner">
 
     <section class="contactos">
-        <h1>Contacto</h1>
+        <h2>Contacto</h2>
        
 
-        <form>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br>
-
-        <label for="email">Correo Electrónico:</label>
-        <input type="email" id="email" name="email" required><br>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">Mensaje</textarea>
+          </div>
 
         <input type="submit" value="Enviar">
         </form>
     </section>
 
-    <section class="redes">
+    <footer class="redes">
         
         <img src="Img/Contactos/Whatsapp.png" alt="" class="red">
         <a href="https://wa.me/5490346815506126" class="link">Whatsapp</a></li>
@@ -53,7 +64,7 @@
         <img src="Img/Contactos/Instagram.avif" alt="" class="red">
         <a href="https://www.instagram.com/ale_di97/" class="link">Instagram</a>        
 
-    </section>
+    </footer>
 
 
 

@@ -22,8 +22,8 @@ header {
 }
 
 header img {
-    max-width: 100%;
-    height: auto;
+    max-width: 100% ;
+    height: auto ;
 }
 
 nav ul {
@@ -31,7 +31,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 20px;
 }
 
@@ -65,16 +65,14 @@ section p {
 .inicio{
     display: flex;
     justify-content: space-between;
-    margin: 40px 210px;
-    overflow-x: auto;
+    margin: 40px 20px;
+    overflow-x: auto;    
 }
 
 .herramientas{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    max-width: 100%;
-    height: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    
 }   
 
 .testimonios .lista{
@@ -111,7 +109,7 @@ section p {
 }
 
 .redes .red {
-    max-width: 10%;
+    max-width: 5%;
     height: auto;
     margin: 10px;
 }
