@@ -89,11 +89,8 @@ section p {
     margin-right: 20px;
 }
 
-.contactos {
-    text-align: center;
-    border: 2px solid black;
-    padding: 20px;
-}
+
+
 
 .redes {
     display: flex;
@@ -122,10 +119,6 @@ section p {
     margin: 0 auto;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 50%;
-}
 
 footer {
     background-color: #333;
