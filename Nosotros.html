@@ -38,33 +38,59 @@
     
     <!-- Dos imagenes a la izquierda de sobre nosotros, una debajo de la otra -->
     <section>
-        
-        <div class="herramientas">
-            <img src="Img/Nosotros/Herramientas-1.jpg" alt="Imagen de herramientas">
-            <img src="Img/Nosotros/Herramientas-2.jpg" alt="Imagen de herramientas">
-        </div>
-
-        <h2>Sobre Nosotros</h2>
-        <p>Di Giuseppe Repuestos, tu destino confiable para todas tus necesidades de repuestos de herramientas. 
+        <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+            <h2>Sobre Nosotros</h2>
+            <p>Di Giuseppe Repuestos, tu destino confiable para todas tus necesidades de repuestos de herramientas. 
             Nos enorgullece ser el lugar de referencia para entusiastas del bricolaje, profesionales de la construcción
             y cualquier persona que busque soluciones de alta calidad para sus herramientas. En Di Giuseppe Repuestos, 
             entendemos la importancia de mantener tus herramientas en óptimo estado. Ya sea que necesites un repuesto 
             específico para tu taladro confiable o busques piezas de repuesto para tu sierra favorita, estamos aquí para 
             satisfacer todas tus demandas.</p>
-        <p>Nuestro extenso catálogo abarca una amplia variedad de repuestos para herramientas eléctricas, manuales y
+            <p>Nuestro extenso catálogo abarca una amplia variedad de repuestos para herramientas eléctricas, manuales y
             accesorios. Desde escobillas de carbón hasta engranajes de reemplazo, ofrecemos productos de marcas reconocidas 
             que garantizan durabilidad y rendimiento superior.</p>
-        <p>Nos enorgullece contar con un equipo de expertos apasionados por las herramientas que están listos para asesorarte 
+            <p>Nos enorgullece contar con un equipo de expertos apasionados por las herramientas que están listos para asesorarte 
             en la búsqueda de los repuestos adecuados. Ya sea que seas un profesional experimentado o un aficionado que está 
             dando sus primeros pasos en el mundo del bricolaje, estamos comprometidos a brindarte la atención personalizada que mereces.            
             Además de nuestra amplia selección de repuestos, también ofrecemos servicios de reparación y mantenimiento. Nuestro taller
             cuenta con técnicos capacitados que pueden diagnosticar y solucionar problemas con tus herramientas, devolviéndote un 
             rendimiento óptimo.</p>
-        <p> En Di Giuseppe Repuestos, la calidad y la satisfacción del cliente son nuestra máxima prioridad. Nos esforzamos por ofrecer 
+            <p> En Di Giuseppe Repuestos, la calidad y la satisfacción del cliente son nuestra máxima prioridad. Nos esforzamos por ofrecer 
             una experiencia de compra sin complicaciones, con envíos rápidos y precios competitivos.            
             Visítanos hoy y descubre por qué somos el destino preferido para los amantes de las herramientas.
-            ¡Confía en nosotros para mantener tus herramientas en perfecto estado de funcionamiento!</p>
+            ¡Confía en nosotros para mantener tus herramientas en perfecto estado de funcionamiento!</p></div>
     </section>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Img/Nosotros/Herramientas-1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/Nosotros/Herramientas-2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/Nosotros/Herramientas-3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/Nosotros/Herramientas-4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/Nosotros/Herramientas-5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="Img/Nosotros/Herramientas-6.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     <footer>
         <ul>
@@ -73,7 +99,14 @@
             <li><a href="https://www.instagram.com/ale_di97/">Instagram</a></li>
         </ul>
     </footer>
-
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var myCarousel = new bootstrap.Carousel(document.getElementById('carouselExampleAutoplaying'), {
+            interval: 1500, 
+            wrap: true,     
+          });
+        });
+      </script>
 
 
 </body>

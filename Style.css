@@ -69,11 +69,6 @@ section p {
     overflow-x: auto;    
 }
 
-.herramientas{
-    display: flex;
-    flex-wrap: nowrap;
-    
-}   
 
 .testimonios .lista{
     list-style: none;
@@ -118,6 +113,18 @@ section p {
     display: block;
     text-align: center;
     margin-top: 50px;
+}
+
+.carousel-item {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; 
+    margin: 0 auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50%;
 }
 
 footer {
