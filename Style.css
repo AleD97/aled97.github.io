@@ -4,41 +4,50 @@
     }
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap'); 
+
 body, h1, h2, p {
+    font-family: 'Libre Baskerville', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-}
-
 header {
-    background-color: #333;
+    background-color: #631b1b;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
-header img {
-    max-width: 100% ;
-    height: auto ;
+.navbar {
+    display: grid;
+    place-items: center;
+    padding-left: 150px; 
 }
 
-nav ul {
+.navbar-menu {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 10px;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
+.navbar-menu li {
+    text-align: center;
 }
 
-nav a {
+.navbar-menu a {
     text-decoration: none;
     color: #fff;
-    font-weight: bold;
+    padding: 10px;
+    display: block;
+    transition: background-color 0.3s ease;
+    border: 1px solid #fff;
+}
+
+.navbar-menu a:hover {
+    background-color: #555;
 }
 
 section {
@@ -90,28 +99,6 @@ section p {
 }
 
 
-
-
-.redes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 100px;
-}
-
-.redes .red {
-    max-width: 5%;
-    height: auto;
-    margin: 10px;
-}
-
-.redes .link {
-    display: block;
-    text-align: center;
-    margin-top: 50px;
-}
-
 .carousel-item {
     max-width: 100%;
     height: auto;
@@ -141,4 +128,14 @@ footer a {
     color: #fff;
 }
 
-  
+footer::before {
+    content: "¡Síguenos en nuestras redes sociales!";
+    display: block;
+    font-weight: bold;
+}
+
+footer::after {
+    content: "© 2024 Di Giuseppe Repuestos. Gracias por confiar.";
+    display: block;
+    font-style: italic;
+}
