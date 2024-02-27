@@ -1,0 +1,18 @@
+.testimonios .lista{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.testimonios .lista2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.testimonios .lista2 .cliente {
+    max-width: 100px;
+    margin-right: 20px;
+}

@@ -1,0 +1,21 @@
+.banner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+  }  
+  
+  .inicio{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 20px;
+    overflow-x: auto;    
+}
+
+.carousel-item {
+    max-width: 100%;
+    height: auto;
+    max-height: 400px; 
+    margin: 0 auto;
+}

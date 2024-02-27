@@ -1,0 +1,32 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer::before {
+    content: "¡Síguenos en nuestras redes sociales!";
+    display: block;
+    font-weight: bold;
+}
+
+footer::after {
+    content: "© 2024 Di Giuseppe Repuestos. Gracias por confiar.";
+    display: block;
+    font-style: italic;
+}
