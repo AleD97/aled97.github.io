@@ -96,11 +96,13 @@ section p {
   margin: 0;
 }
 
-.inicio {
-  display: flex;
-  justify-content: space-between;
-  margin: 40px 20px;
-  overflow-x: auto;
+.inicio img {
+  width: 615px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.inicio img:hover {
+  transform: scale(1.2); /* Ajusta el nivel de zoom al pasar el ratón */
 }
 
 .carousel-item {
