@@ -7,13 +7,23 @@
   }  
   
   .inicio img {
-    width: 615px;
+    max-width: 30%;
     transition: transform 0.3s ease-in-out;
+    height: auto;
   }
   
+  .inicio{
+    display: flex;
+    justify-content: space-between;
+  }
   .inicio img:hover {
     transform: scale(1.2); /* Ajusta el nivel de zoom al pasar el ratón */
   }
+
+  .herramientas{
+    max-width: 50%;
+  }
+  
 
 
 .carousel-item {
@@ -22,3 +32,4 @@
     max-height: 400px; 
     margin: 0 auto;
 }
+
